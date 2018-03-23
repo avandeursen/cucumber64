@@ -23,12 +23,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-        <cucumber.version>1.2.5</cucumber.version>
-        <junit.version>4.12</junit.version>
-        <junit.jupiter.version>5.0.0-SNAPSHOT</junit.jupiter.version>
-        <junit.vintage.version>${junit.version}.0-SNAPSHOT</junit.vintage.version>
-        <junit.platform.version>1.0.0-SNAPSHOT</junit.platform.version>
         <surefire.plugin.version>2.19.1</surefire.plugin.version>
+        <junit.jupiter.version>5.1.0</junit.jupiter.version>
+        <junit.platform.version>1.1.0</junit.platform.version>
+        <junit.vintage.version>5.1.0</junit.vintage.version>
+        <surefire.plugin.version>2.19.1</surefire.plugin.version>
+        <cucumber.version>1.2.5</cucumber.version>
     </properties>
 
     <dependencies>
@@ -36,12 +36,6 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
